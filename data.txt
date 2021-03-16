@@ -1,0 +1,52 @@
+==> download tmdb api  https://www.themoviedb.org/
+==> join tmdb ====> un = pydev  , pw = pyIndia@123 ,
+==> login tmdb api
+==> go to right top "P" icon profile
+==> then go to setting
+==> then click on left-bar  "api" 
+==> then request api key 
+==> select developer then go down and accept
+==> create 
+==> website ==== appname=netflixpy === url=www.netflixpy.com
+==> copy api key ==== 46a1aa6a05809bb64a61924b131c5c7e
+========
+==> start project with reactjs
+==> cmd ===== npx create-react-app  netflix_clone
+==> www.firebase.com ===== it is a suite tools by google and it allows you to do bunch of clever things .so you can host your website you can have a database .you can have authentication 
+==> go to add a webapp option 
+==> register app nickname ==== netflix_clone
+==> click register app buttom 
+==> add firebase sdk skip === because we use  ''' node module '''
+==> click on next 
+==> npm install -g firebase-tools  in terminal 
+==> click conntinue 
+==> go to Firebase products and features
+==> select hosting
+==> click on get started
+==> op1 next 
+==> op2 copy firebase init === next 
+==> op3 next 
+==> firebase setup complete 
+===========
+==> go to project folder  >cd netflix_clone 
+==> don't wanted files delete ==== apptest ,setup test , logo inside   src folder 
+==> goto src/App.js ==== delete function's header part  
+==> now we need to actully use something which will handle sending request from our code and the thing that i like to use is called axios
+==> install axios  on terminal 
+==> >npm i axios
+==> now setup axios because we needto set up our  request
+==> > npm start
+==> create a new file === src/requests.js   ===== it is not a component so not required file cap R
+==============
+==> go to src/requests.js ==== const API_KEY = '46a1aa6a05809bb64a61924b131c5c7e'
+==> youtube link add ====> >npm i react-youtube
+==> npm i movie-trailer
+
+=====================
+==> firebase CLI ===
+==> > firebase login ===ok 
+==> >  y == ok 
+==> google login == ok 
+==> > firebase init
+==> > y == ok 
+==> > select Hosting == ok
